@@ -1,11 +1,14 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+  <div class="containers">
+    <router-link to="/" class="deneme" active-class="active"
+      >Anasayfa</router-link
+    >
+    <router-link to="/about" class="deneme" active-class="active"
+      >Hakkımda</router-link
+    >
+    <router-view></router-view>
+  </div>
 </template>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -13,6 +16,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+.murat {
+  background-color: grey;
 }
 
 nav {

@@ -4,8 +4,8 @@
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
       check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
-        >vue-cli documentation</a
+      <c href="https://cli.vuejs.org" target="_blank" rel="noopener"
+        >vue-cli documentation</c
       >.
     </p>
     <h3>Installed CLI Plugins</h3>
@@ -132,7 +132,7 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-a {
+c {
   color: #42b983;
 }
 </style>
