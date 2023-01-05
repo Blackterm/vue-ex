@@ -6,6 +6,9 @@
     <router-link to="/about" class="deneme" active-class="active"
       >Hakkımda</router-link
     >
+    <router-link to="/detail/456" class="deneme" active-class="active"
+      >Açıklama</router-link
+    >
     <router-view></router-view>
   </div>
 </template>
