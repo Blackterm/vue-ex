@@ -1,17 +1,20 @@
 <template>
-  <div class="containers">
-    <router-link to="/" class="deneme" active-class="active"
-      >Anasayfa</router-link
-    >
-    <router-link to="/about" class="deneme" active-class="active"
-      >Hakkımda</router-link
-    >
-    <router-link to="/detail/456" class="deneme" active-class="active"
-      >Açıklama</router-link
-    >
+  <app-header />
+  <div class="flex flex-row">
+    <SideBar />
     <router-view></router-view>
   </div>
 </template>
+<script>
+import SideBar from "@/components/sideBar.vue";
+export default {
+  components: {
+    SideBar,
+  },
+};
+</script>
+HomeView
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

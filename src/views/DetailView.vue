@@ -1,8 +1,10 @@
 <template>
-  <h1>Detay sayfa</h1>
-  <p>Açıklama sayfası olacaktır burası</p>
-  <p>{{ $route.params.userId }}</p>
-  <button @click="goBack">Geri Dön</button>
+  <div class="containers">
+    <h1>Detay sayfa</h1>
+    <p>Açıklama sayfası olacaktır burası</p>
+    <p>{{ $route.params.userId }}</p>
+    <button @click="goBack">Geri Dön</button>
+  </div>
 </template>
 <script>
 // @ is an alias to /src
