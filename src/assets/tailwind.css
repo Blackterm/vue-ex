@@ -68,4 +68,5 @@
   .danger-button {
     @apply bg-red-500 p-2 text-white rounded-md hover:bg-black;
   }
+
 }
